@@ -5,17 +5,23 @@
 ## Login   <alexandro.cebrianmancera@epitech.eu>
 ## 
 ## Started on  Mon Nov  7 18:45:48 2016 cebria_a
-## Last update Mon Nov  7 18:50:41 2016 cebria_a
+## Last update Mon Nov  7 20:06:22 2016 cebria_a
 ##
 
 CC	=	gcc
 
 RM	=	rm -f
 
-CFLAGS	=	-Wall -Wextra -Werror
+IDIR	=	include/
+
+CFLAGS	=	-Wall -Wextra -Werror -I$(IDIR)
 
 SRC	=	sum_stdarg.c	\
 		disp_stdarg.c	\
+		my_putstr.c	\
+		my_putchar.c	\
+		my_put_nbr.c	\
+		my_strlen.c	\
 
 OBJ	=	$(SRC:.c=.o)
 

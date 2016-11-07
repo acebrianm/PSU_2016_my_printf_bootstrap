@@ -21,11 +21,10 @@ You have to compile the library with your program adding:
 gcc <your program>.c -L path/to/library -lmy
 ```
 
-And add the prototypes for the functions in your program (as of now I don't supply a header):
+And add the header for the library in your program:
 
 ```C
-int sum_stdarg(int i, int nb, ...);
-int disp_stdarg(char *s, ...);
+#include "my.h"
 ```
 
 Examples
