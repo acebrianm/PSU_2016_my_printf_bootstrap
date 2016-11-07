@@ -18,7 +18,7 @@ Usage
 You have to compile the library with your program adding:
 
 ```C
-gcc <your program>.c -L path/to/library -lmy
+gcc <your program>.c -L path/to/library -lmy -I path/to/header
 ```
 
 And add the header for the library in your program:
