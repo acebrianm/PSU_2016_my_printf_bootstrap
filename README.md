@@ -1,4 +1,4 @@
-# PSU_2016_my_printf_bootstrap
+# PSU_2018_my_printf_bootstrap
 Library that stores the implementation of sum_stdarg and disp_stdarg in C, based from the C function printf for the EPITECH module "B1 - Unix Programming".
 
 Installation
